@@ -173,3 +173,15 @@ Foram validados:
 A documentação completa pode ser encontrada em:
 
 responsiveness/responsiveness-report.md
+
+## Testes Automatizados
+
+Os testes automatizados foram desenvolvidos utilizando Cypress.
+
+Fluxo automatizado:
+
+- Cadastro de usuário
+
+Para executar os testes localmente:
+
+npx cypress open

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@faker-js/faker": "^10.3.0",
+    "cypress": "^15.11.0"
+  }
+}
