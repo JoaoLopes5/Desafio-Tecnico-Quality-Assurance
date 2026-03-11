@@ -32,7 +32,7 @@ Os bugs foram documentados com:
 * evidências
 
 📄 Documentação completa:
-https://www.notion.so/Erro-ao-recuperar-senha-3a483f76aaa44077be061bd5d05dfc39?source=copy_link
+https://www.notion.so/744eb36fbfce4a29a69ac330ea7592c6?v=488f078245434eb5acb3ebcbde57f719
 
 ---
 
@@ -141,7 +141,7 @@ SEO: 82
 
 Evidências disponíveis na pasta:
 
-performance/
+performance/lighthouse-report.md
 
 ## Teste de Acessibilidade
 
@@ -189,3 +189,5 @@ Fluxo automatizado:
 Para executar os testes localmente:
 
 npx cypress open
+
+Ou npx cypress run
