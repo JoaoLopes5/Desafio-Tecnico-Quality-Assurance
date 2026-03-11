@@ -65,15 +65,19 @@ bugs/                → documentação dos bugs encontrados
 
 1. Clonar o repositório
 
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/JoaoLopes5/Desafio-Tecnico-Quality-Assurance.git
 
 2. Instalar dependências
+
+cd Desafio-Tecnico-Quality-Assurance
 
 npm install
 
 3. Executar o Cypress
 
 npx cypress open
+
+Ou npx cypress run
 
 ---
 
