@@ -67,4 +67,4 @@ Recomenda-se investigar possíveis melhorias para otimização da versão mobile
 
 Os testes de desempenho foram baseados nos cenários descritos no arquivo:
 
-performance/performance.feature
+cypress/e2e/features/performance.feature

@@ -18,5 +18,5 @@ Então o sistema deve processar o cadastro em menos de 3 segundos
 Cenário: Validar estabilidade da aplicação com múltiplos usuários
 Dado que 30 usuários estejam acessando a plataforma simultaneamente
 Quando realizarem buscas por profissionais ao mesmo tempo
-Então o sistema deve continuar respondendo sem erros ou falhas
 E o tempo de resposta médio deve ser menor que 5 segundos
+Então o sistema deve continuar respondendo sem erros ou falhas

@@ -4,7 +4,8 @@ Funcionalidade: Cadastro de pessoa usuária
 Como usuário da plataforma
 Quero me cadastrar
 Para poder buscar profissionais de saúde
-Contexto: 
+
+Contexto:
 Dado que eu acesse a página de cadastro
 
 Cenário: Cadastro com dados válidos
@@ -12,6 +13,9 @@ Quando eu preencher os dados obrigatórios corretamente
 E clicar no botão "Cadastrar"
 Então o sistema deve concluir o cadastro com sucesso
 E devo ser redirecionado para a página inicial da plataforma
+
+Cenário: Buscar profissionais após login
+Dado que estou na página inicial da plataforma
 Quando eu acessar a área de busca de profissionais
 E pesquisar por uma especialidade
 Então o sistema deve exibir uma lista de profissionais disponíveis
