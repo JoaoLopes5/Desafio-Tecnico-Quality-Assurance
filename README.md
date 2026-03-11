@@ -49,10 +49,10 @@ https://www.notion.so/Erro-ao-recuperar-senha-3a483f76aaa44077be061bd5d05dfc39?s
 ## Estrutura do projeto
 
 ```
-tests/
- ├─ features/        → cenários de teste em Gherkin
- └─ automation/      → testes automatizados com Cypress
-
+cypress/
+ └─ e2e/
+     ├─ features/           → cenários de teste escritos em Gherkin (BDD)
+     └─ step_definitions/   → implementação dos testes automatizados com Cypress
 performance/         → testes de performance
 accessibility/       → testes de acessibilidade
 responsiveness/      → testes de responsividade
