@@ -80,18 +80,26 @@ A arquitetura foi definida visando:
 * Facilidade de manutenção
 * Escalabilidade dos testes
 
-### 📂 Estrutura do projeto
+## 📂 Estrutura do projeto
 
+```
 cypress/
-├─ data/                  → massa de dados dinâmica utilizada nos testes
+├─ data/                  # massa de dados dinâmica utilizada nos testes
 ├─ e2e/
-│   ├─ features/          → cenários escritos em Gherkin
-│   └─ step_definitions/  → implementação dos testes automatizados
-├─ fixtures/              → dados estáticos para testes
+│  ├─ features/           # cenários escritos em Gherkin
+│  └─ step_definitions/   # implementação dos testes automatizados
+├─ fixtures/              # dados estáticos para testes
 └─ support/
-├─ Pages/             → Page Objects (ações e elementos da interface)
-├─ commands.js        → comandos customizados
-└─ e2e.js             → configurações globais do Cypress
+   ├─ Pages/              # Page Objects (ações e elementos da interface)
+   ├─ commands.js         # comandos customizados
+   └─ e2e.js              # configurações globais do Cypress
+
+performance/              # testes de performance
+accessibility/            # testes de acessibilidade
+responsiveness/           # testes de responsividade
+bugs/                     # documentação dos bugs
+```
+
 
 performance/               → testes de performance
 accessibility/             → testes de acessibilidade
